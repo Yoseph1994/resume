@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
 import { LuBriefcase, LuGraduationCap } from "react-icons/lu";
 import Yoom from "@/public/Yoom.png";
 import AdventureHub from "@/public/AdventureHub.png";
-import corpComment from "@/public/corpComment.png";
+// import corpComment from "@/public/AdventureHub.png";
 
 export const links = [
   {
@@ -80,7 +79,7 @@ export const projectsData = [
     description:
       "Helped build a platform where users can share public feedback with companies. It's a simple way for people to give their thoughts and for businesses to listen and improve.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpComment, // Replace with your project image
+    imageUrl: AdventureHub, // Replace with your project image
   },
   ,
 ] as const;
